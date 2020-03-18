@@ -357,10 +357,3 @@ class Sample:
             print(' best evals : {0}'.format(rcga.best_evaluation))
             print(' best genes : {0}'.format(rcga.best_gene))
         return
-
-if __name__ == '__main__':
-    #test()
-    import verification
-    
-    #verification.test_Minimize_L2_1()
-    verification.test_LinearLeastSquares_withRCGA()
